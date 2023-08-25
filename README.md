@@ -8,3 +8,6 @@ docker-compose run --rm app sh -c "flake8"
 
 start a project
 docker-compose run --rm app sh -c "django-admin startproject app ."
+
+run tests
+docker-compose run --rm app sh -c "python manage.py test"
